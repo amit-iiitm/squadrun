@@ -1,0 +1,79 @@
+SVM with random under sampling:
+Recall is,  0.545095220985
+Precision is,  1.0
+Accuracy is,  0.776364599894
+F1 score is,  0.705581395349
+Kappa score is,  0.549218746364
+Confusion matrix,
+[[2878    0]
+ [1266 1517]]
+
+
+SVM without undersampling:
+Recall is,  0.553191489362
+Precision is,  1.0
+Accuracy is,  0.959004731496
+F1 score is,  0.712328767123
+Kappa score is,  0.692212680091
+Confusion matrix,
+[[27450     0]
+ [ 1239  1534]]
+
+SVM with SMOTE oversampling:
+Recall is,  0.545265006035
+Precision is,  1.0
+Accuracy is,  0.773076572054
+F1 score is,  0.705723618804
+Kappa score is,  0.545748761471
+Confusion matrix,
+[[27446     0]
+ [12432 14907]]
+
+
+Random forest with random undersampling:
+Recall is,  0.586058210564
+Precision is,  0.877825618945
+Accuracy is,  0.756403462286
+F1 score is,  0.702865761689
+Kappa score is,  0.509981593832
+Confusion matrix,
+[[2651  227]
+ [1152 1631]]
+
+
+Decision tree with random undersampling:
+Recall is,  0.698886094143
+Precision is,  0.676992690567
+Accuracy is,  0.688040982159
+F1 score is,  0.687765205092
+Kappa score is,  0.376239136015
+Confusion matrix,
+[[1950  928]
+ [ 838 1945]]
+
+Decision tree with SOMTE oversampling:
+Recall is,  0.947986393065
+Precision is,  0.939498296237
+Accuracy is,  0.943579446929
+F1 score is,  0.94372325899
+Kappa score is,  0.887160450658
+Confusion matrix,
+[[25777  1669]
+ [ 1422 25917]]
+
+
+Random forest with SMOTE:
+Recall is,  0.939317458576
+Precision is,  0.998638926696
+Accuracy is,  0.969079127498
+F1 score is,  0.968070268029
+Kappa score is,  0.938150857468
+Confusion matrix,
+[[27411    35]
+ [ 1659 25680]]
+
+
+
+
+
+
